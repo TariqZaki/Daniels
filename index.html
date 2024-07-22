@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--!---- WEBSITE ICON LINK ---->
+  <link rel="icon" href="images/favicon.ico">
+  <!--!---- WEBSITE ICON LINK ---->
+
+  <!--!---- WEBSITE TITLE ---->
+  <title>DANIELS</title>
+    <!--!---- WEBSITE TITLE ---->
+
+
+  <!--!---- GOOGLE FONTS LINKS ---->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!--!---- GOOGLE FONTS LINKS ---->
+
+  <!--!---- CSS LINKS ---->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <!--!---- CSS LINKS ---->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!--?---- START NAVBAR ----->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+    <div class="container py-2">
+      <a class="navbar-brand fw-bold ps-5" href="#home">DANIELS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i id="barsToggle" class="fa-solid fa-bars fs-4 text-white border-1 rounded-1 border-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 pe-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#client">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--?---- END NAVBAR ----->
+
+  <!--?---- START HOME SECTION ----->
+  <section id="home" class="min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="caption">
+        <h5 class="text-white">Hello</h5>
+        <h5 class="fw-light py-4 text-white">
+          I AM <span class="animation fw-bolder"></span>
+        </h5>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+          var typed = new Typed(".animation", {
+            strings: ["Larry Daniels", "Developer", "Designer"],
+            typeSpeed: 30,
+            backSpeed: 30,
+            loop: true,
+            loopCount: Infinity,
+          });
+        </script>
+      </div>
+      <div class="icons-group d-flex gap-1 text-white">
+        <div class="icon d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+        <div class="icon d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="icon d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="icon d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-behance"></i>
+        </div>
+        <div class="icon d-flex justify-content-center align-items-center">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?---- END HOME SECTION ----->
+  <div class="backToTop bg-dark position-fixed rounded-3  justify-content-center align-items-center">
+    <i class="fa-solid fa-arrow-up text-white"></i>
+  </div>
+  <!--?---- START ABOUT SECTION ----->
+  <section id="about" class="py-5">
+    <div class="container py-5">
+      <div class="row m-auto">
+        <div class="col-lg-5">
+          <div class="about-image position-relative ms-5 py-5">
+            <img data-aos="fade-right" data-aos-duration="1000" class="w-100 position-relative" src="images/hero.jpg"
+              alt="Larry Daniels image" />
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000">
+          <div class="about-text py-5">
+            <h3 class="fw-bolder first-color p-0 m-0">About Me.</h3>
+            <span class="p-0 m-0">UI / UX DESIGNER & WEB DEVELOPER </span>
+            <p class="py-4">
+              I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever It
+              has survived not only five centuries, but also the leap into
+              electronic but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s
+              with the release of Letraset sheets containing
+            </p>
+
+            <div>
+              <div class="progress rounded-1 mb-4" style="height: 25px" role="progressbar" aria-label="Basic example"
+                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-black rounded-1 position-relative" style="width: 95%">
+                  <div class="text position-absolute d-flex justify-content-between gap-5" style="width: 95%">
+                    <span class="text-white ps-2" style="font-size: 12px">Web Design</span>
+                    <span class="text-white">95%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="progress rounded-1 mb-4" style="height: 25px" role="progressbar" aria-label="Basic example"
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-black rounded-1 position-relative" style="width: 80%">
+                  <div class="text position-absolute d-flex justify-content-between gap-5" style="width: 95%">
+                    <span class="text-white ps-2" style="font-size: 12px">Branding</span>
+                    <span class="text-white" style="font-size: 12px">80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="progress rounded-1 mb-4" style="height: 25px" role="progressbar" aria-label="Basic example"
+                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-black rounded-1 position-relative" style="width: 95%">
+                  <div class="text position-absolute d-flex justify-content-between gap-5" style="width: 95%">
+                    <span class="text-white ps-2" style="font-size: 12px">Web Design</span>
+                    <span class="text-white">95%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btns d-flex gap-2 pt-2">
+              <div class="down-btn">
+                <button class="rounded-2">Download C.V</button>
+              </div>
+              <div class="contact-btn">
+                <button class="rounded-2">Contact Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?----- END ABOUT SECTION ------>
+
+  <!--?---- START SERVICES SECTION ----->
+  <section id="services" class="my-bg py-5">
+    <div class="title text-center">
+      <h3 class="py-5 text-center">Services.</h3>
+    </div>
+    <div class="container py-5">
+      <div class="row gy-4">
+        <div class="col-lg-4" data-aos="zoom-in-down" data-aos-duration="800">
+          <div class="content shadow-sm text-center py-5 bg-body">
+            <span class="icon rounded-circle m-auto d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-laptop fs-3"></i>
+            </span>
+
+            <h6 class="fw-bolder py-3">Web Design</h6>
+
+            <p class="p-0 m-0">
+              Lorem Ipsum is simply dummy text of the <br />
+              Lorem Ipsum has been the industry's <br />
+              standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="zoom-in-down" data-aos-duration="800">
+          <div class="content shadow-sm text-center py-5 bg-body">
+            <span class="icon rounded-circle m-auto d-flex justify-content-center align-items-center">
+              <i class="fa fa-bullhorn fs-3" aria-hidden="true"></i>
+            </span>
+
+            <h6 class="fw-bolder h5 py-3">Web Design</h6>
+
+            <p class="p-0 m-0">
+              Lorem Ipsum is simply dummy text of the <br />
+              Lorem Ipsum has been the industry's <br />
+              standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="zoom-in-down" data-aos-duration="800">
+          <div class="content shadow-sm text-center py-5 bg-body">
+            <span class="icon rounded-circle m-auto d-flex justify-content-center align-items-center">
+              <i class="fa fa-umbrella fs-3" aria-hidden="true"></i>
+            </span>
+
+            <h6 class="fw-bolder h5 py-3">Web Design</h6>
+
+            <p class="p-0 m-0">
+              Lorem Ipsum is simply dummy text of the <br />
+              Lorem Ipsum has been the industry's <br />
+              standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="800">
+          <div class="content shadow-sm text-center py-5 bg-body">
+            <span class="icon rounded-circle m-auto d-flex justify-content-center align-items-center">
+              <i class="fa-regular fa-gem fs-2" aria-hidden="true"></i>
+            </span>
+
+            <h6 class="fw-bolder h5 py-3">Web Design</h6>
+
+            <p class="p-0 m-0">
+              Lorem Ipsum is simply dummy text of the <br />
+              Lorem Ipsum has been the industry's <br />
+              standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="800">
+          <div class="content shadow-sm text-center py-5 bg-body">
+            <span class="icon rounded-circle m-auto d-flex justify-content-center align-items-center">
+              <i class="fa fa-television fs-3" aria-hidden="true"></i>
+            </span>
+
+            <h6 class="fw-bolder h5 py-3">Web Design</h6>
+
+            <p class="p-0 m-0">
+              Lorem Ipsum is simply dummy text of the <br />
+              Lorem Ipsum has been the industry's <br />
+              standard dummy text ever
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="800">
+          <div class="content shadow-sm text-center py-5 bg-body">
+            <span class="icon rounded-circle m-auto d-flex justify-content-center align-items-center">
+              <i class="fa fa-camera fs-3" aria-hidden="true"></i>
+            </span>
+
+            <h6 class="fw-bolder h5 py-3">Web Design</h6>
+
+            <p class="p-0 m-0">
+              Lorem Ipsum is simply dummy text of the <br />
+              Lorem Ipsum has been the industry's <br />
+              standard dummy text ever
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?---- END SERVICES SECTION ----->
+
+  <!--?---- START PORTFOLIO SECTION ----->
+  <section class="portfolio pb-5 bg-body" id="portfolio">
+    <div class="title py-5 d-flex justify-content-center">
+      <h3 class="pt-5 text-center">Portfolio.</h3>
+    </div>
+    <div class="container">
+      <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+            type="button" role="tab" aria-controls="pills-all" aria-selected="true">
+            All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+            Brand
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design"
+            type="button" role="tab" aria-controls="pills-design" aria-selected="false">
+            Design
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-graphic-tab" data-bs-toggle="pill" data-bs-target="#pills-graphic"
+            type="button" role="tab" aria-controls="pills-graphic" aria-selected="false">
+            Graphic
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+          tabindex="0">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2"><i class="fa fa-chain-broken"></i></li>
+                    <li class="me-3"><i class="fa fa-search-plus"></i></li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/1.jpg" class="w-100" alt="charger-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/2.jpg" class="w-100" alt="map-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/3.jpg" class="w-100" alt="black dots-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/4.jpg" class="w-100" alt="lamp-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/5.jpg" class="w-100" alt="penciles-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/6.jpg" class="w-100" alt="tools-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/4.jpg" class="w-100" alt="lamp-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/6.jpg" class="w-100" alt="tools-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/6.jpg" class="w-100" alt="tools-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/5.jpg" class="w-100" alt="penciles-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-graphic-tab" tabindex="0">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/1.jpg" class="w-100" alt="charger-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/6.jpg" class="w-100" alt="tools-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="position-relative por-hover">
+                <div class="layer-hover d-flex flex-column justify-content-center align-items-center">
+                  <h6>WEB DESIGN</h6>
+                  <ul class="d-flex flex-row justify-content-center align-items-center text-center pe-4 mt-5">
+                    <li class="me-2">
+                      <i class="fa-solid fa-link-slash"></i>
+                    </li>
+                    <li class="me-3">
+                      <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </li>
+                  </ul>
+                </div>
+                <img src="images/portfolio/5.jpg" class="w-100" alt="penciles-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?---- END PORTFOLIO SECTION ----->
+
+  <!--?---- START CAROUSEL SECTION ----->
+  <section id="client" class="my-bg pb-5">
+    <div class="title text-center py-5">
+      <h3 class="pt-5">Testimonials.</h3>
+    </div>
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide pointer-event" data-bs-ride="carousel">
+        <div class="carousel-inner pb-5">
+          <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-image pt-5 d-flex justify-content-center align-items-center">
+              <img src="images/1_New1.jpg" class="rounded-circle d-flex justify-content-center align-items-center"
+                alt="client photo" />
+            </div>
+            <figure class="text-center">
+              <blockquote class="blockquote">
+                <p class="fs-6 text-muted pt-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia qui <br />
+                  dolorem consequuntur error possimus nulla?
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                <h6 class="pt-4 fw-bolder m-0">Alex Smith</h6>
+                <span class="text-muted p-0 m-0" style="font-size: 12px">Evanto Customer</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carousel-item active" data-bs-interval="1500">
+            <div class="carousel-image pt-5 d-flex justify-content-center align-items-center">
+              <img src="images/1_New1.jpg" class="rounded-circle d-flex justify-content-center align-items-center"
+                alt="client photo" />
+            </div>
+            <figure class="text-center">
+              <blockquote class="blockquote">
+                <p class="fs-6 text-muted pt-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia qui <br />
+                  dolorem consequuntur error possimus nulla?
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                <h6 class="pt-4 fw-bolder m-0">Alex Smith</h6>
+                <span class="text-muted p-0 m-0" style="font-size: 12px">Evanto Customer</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="carousel-item" data-bs-interval="1500">
+            <div class="carousel-image pt-5 d-flex justify-content-center align-items-center">
+              <img src="images/1_New1.jpg" class="rounded-circle d-flex justify-content-center align-items-center"
+                alt="client photo" />
+            </div>
+            <figure class="text-center">
+              <blockquote class="blockquote">
+                <p class="fs-6 text-muted pt-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia qui <br />
+                  dolorem consequuntur error possimus nulla?
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                <h6 class="pt-4 fw-bolder m-0">Alex Smith</h6>
+                <span class="text-muted p-0 m-0" style="font-size: 12px">Evanto Customer</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?---- END CAROUSEL SECTION ----->
+
+  <!--?---- START NUMBERS SECTION ----->
+  <section id="client">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 py-4">
+          <div class="numbers py-5 text-center">
+            <span><i class="fa fa-users fs-3 pb-3" aria-hidden="true"></i></span>
+            <h3 class="num" data-val="850">000</h3>
+            <p class="text-muted">Happy Customers</p>
+          </div>
+        </div>
+        <div class="col-md-3 py-4">
+          <div class="numbers py-5 text-center">
+            <span><i class="fa fa-thumbs-up fs-3 pb-3" aria-hidden="true"></i></span>
+            <h3 class="num" data-val="230">000</h3>
+            <p class="text-muted">Complete Projects</p>
+          </div>
+        </div>
+        <div class="col-md-3 py-4">
+          <div class="numbers py-5 text-center">
+            <span><i class="fa fa-bullhorn fs-3 pb-3" aria-hidden="true"></i></span>
+            <h3 class="num" data-val="945">0000</h3>
+            <p class="text-muted">Lines Of Code</p>
+          </div>
+        </div>
+        <div class="col-md-3 py-4">
+          <div class="numbers py-5 text-center">
+            <span><i class="fa fa-cloud-download fs-3 pb-3" aria-hidden="true"></i></span>
+            <h3 class="num" data-val="780">000</h3>
+            <p class="text-muted">Files Downloaded</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?---- END NUMBERS SECTION ----->
+
+  <!--?---- START TEAM SECTION ----->
+  <section id="team" class="my-bg pb-5">
+    <div class="title text-center py-5">
+      <h3 class="py-5">Our Team.</h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 big-contain" data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" data-aos-duration="1000">
+          <div class="card rounded-0">
+            <div class="card-content shadow-none border-0">
+              <div class="card-image overflow-hidden">
+                <img src="images/1.jpg" class="card-img-top position-relative border-0 rounded-0"
+                  alt="front-end developer" />
+              </div>
+              <div class="layer-content d-flex justify-content-center align-items-center">
+                <div class="icons d-flex justify-content-center text-center gap-2">
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-facebook-f rounded-circle d-flex justify-content-center align-items-center"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-twitter d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-pinterest d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-linkedin-in d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body text-center py-4 rounded-1">
+            <h4 class="card-title text-white">John Doe</h4>
+            <h5 class="card-title text-white fw-bolder">
+              FRONT-END DEVELOPER
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 big-contain" data-aos="fade-down" data-aos-easing="linear"
+          data-aos-duration="1000">
+          <div class="card rounded-0">
+            <div class="card-content shadow-none border-0">
+              <div class="card-image overflow-hidden">
+                <img src="images/2.jpg" class="card-img-top position-relative border-0 rounded-0"
+                  alt="front-end developer" />
+              </div>
+              <div class="layer-content d-flex justify-content-center align-items-center">
+                <div class="icons d-flex justify-content-center text-center gap-2">
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-facebook-f rounded-circle d-flex justify-content-center align-items-center"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-twitter d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-pinterest d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-linkedin-in d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body text-center py-4 rounded-1">
+            <h4 class="card-title text-white">Dave Wood</h4>
+            <h5 class="card-title text-white fw-bolder">
+              Back-END DEVELOPER
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 big-contain" data-aos="fade-left" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" data-aos-duration="1000">
+          <div class="card rounded-0">
+            <div class="card-content shadow-none border-0">
+              <div class="card-image overflow-hidden">
+                <img src="images/1.jpg" class="card-img-top position-relative border-0 rounded-0"
+                  alt="front-end developer" />
+              </div>
+              <div class="layer-content d-flex justify-content-center align-items-center">
+                <div class="icons d-flex justify-content-center text-center gap-2">
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-facebook-f rounded-circle d-flex justify-content-center align-items-center"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-twitter d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-pinterest d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                  <a href="#" class="text-decoration-none"><i
+                      class="fa-brands fa-linkedin-in d-flex justify-content-center align-items-center rounded-circle"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body text-center py-4 rounded-1">
+            <h4 class="card-title text-white">Claire Chedd</h4>
+            <h5 class="card-title text-white fw-bolder">
+              Back-END DEVELOPER
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--?---- END TEAM SECTION ----->
+
+  <!--?---- START CONTACT SECTION ----->
+  <section id="contact">
+    <div class="title text-center py-5">
+      <h3 class="pt-5">Contact Us.</h3>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="content text-center">
+            <span class="d-flex justify-content-center align-items-center py-3">
+              <i class="fa fa-location-arrow fs-4 d-flex justify-content-center align-items-center"></i>
+            </span>
+            <h6 class="fw-bolder">Address</h6>
+            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content text-center">
+            <span class="d-flex justify-content-center align-items-center py-3">
+              <i class="fa fa-envelope fs-4 d-flex justify-content-center align-items-center"></i>
+            </span>
+            <h6 class="fw-bolder">Email</h6>
+            <p>Support@website.com</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content text-center">
+            <span class="d-flex justify-content-center align-items-center py-3">
+              <i class="fa fa-phone fs-4 d-flex justify-content-center align-items-center"></i>
+            </span>
+            <h6 class="fw-bolder">Phone</h6>
+            <p>+20 010 2517 8918</p>
+          </div>
+        </div>
+        <form>
+          <div class="row pt-5">
+            <div class="col-lg-6 pb-2">
+              <div class="input-content input-name">
+                <input type="text" class="w-100 rounded-2" style="height: 40px" placeholder=" Name" aria-label="Name" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-content">
+                <input type="email" class="w-100 rounded-2" style="height: 40px" placeholder=" Email"
+                  aria-label="Email" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="input-content pt-2">
+                <textarea class="rounded-2 w-100" rows="8" placeholder=" Message"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-md-2 pb-5">
+              <button type="button" class="rounded-2">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--?---- END CONTACT SECTION ----->
+
+  <!--?---- START FOOTER SECTION ----->
+  <section id="footer" class="bg-dark pt-3">
+    <div class="container py-3">
+      <p class="d-flex justify-content-center align-items-center">
+        Copy Right 2018 © By Daniels All Rights Reserved
+      </p>
+    </div>
+  </section>
+  <!--?---- END FOOTER SECTION ----->
+
+  <!--?---- LOADING & SPINNER ---->
+   <div class="loading">
+    <span class="loader"></span>
+   </div>
+  <!--?---- LOADING & SPINNER ---->
+
+  <!--!---- JS LINKS ----->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/Random Quote Generator.js"></script>
+  <script src="js/index.js"></script>
+  <!--!---- JS LINKS ----->
+</body>
+
+</html>
